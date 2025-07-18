@@ -1,0 +1,67 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Usar @layer base para aplicar estilos globais que o Tailwind pode sobrescrever */
+@layer base {
+  body {
+    /* Define a fonte padrão para o body, que será herdada por toda a aplicação. */
+    font-family: theme('fontFamily.sans'); /* Usa a fonte definida no tailwind.config.js */
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* Evita barras de rolagem indesejadas */
+    line-height: 1.6;
+    
+    background-image: url('/background.jpg'); /* Verifique se background.jpg está na pasta public */
+    background-size: cover;
+    background-position: center;
+  }
+
+  #root {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* Definições de cores ODS para os temas */
+.bg-ods-pobreza { background-color: #E5243B; } /* ODS 1 */
+.bg-ods-fome { background-color: #DDA63A; } /* ODS 2 */
+.bg-ods-saude { background-color: #4C9F50; } /* ODS 3 */
+.bg-ods-educacao { background-color: #C5192D; } /* ODS 4 */
+.bg-ods-genero { background-color: #FF3A21; } /* ODS 5 */
+.bg-ods-agua { background-color: #26BDE2; } /* ODS 6 */
+.bg-ods-energia { background-color: #FCC30B; } /* ODS 7 */
+.bg-ods-trabalho { background-color: #A21942; } /* ODS 8 */
+.bg-ods-industria { background-color: #FD6925; } /* ODS 9 */
+.bg-ods-desigual { background-color: #DD1367; } /* ODS 10 */
+.bg-ods-cidades { background-color: #FD9D24; } /* ODS 11 */
+.bg-ods-consumo { background-color: #BF8B2E; } /* ODS 12 */
+.bg-ods-clima { background-color: #3F7E44; } /* ODS 13 */
+.bg-ods-oceanos { background-color: #0A97D9; } /* ODS 14 */
+.bg-ods-terrestre { background-color: #56C02B; } /* ODS 15 */
+.bg-ods-paz { background-color: #00689D; } /* ODS 16 */
+.bg-ods-parceria { background-color: #19486A; } /* ODS 17 */
+
+/* Cores de texto correspondentes, se necessário */
+.text-ods-pobreza { color: #E5243B; }
+.text-ods-fome { color: #DDA63A; }
+.text-ods-saude { color: #4C9F50; }
+.text-ods-educacao { color: #C5192D; }
+.text-ods-genero { color: #FF3A21; }
+.text-ods-agua { color: #26BDE2; }
+.text-ods-energia { color: #FCC30B; }
+.text-ods-trabalho { color: #A21942; }
+.text-ods-industria { color: #FD6925; }
+.text-ods-desigual { color: #DD1367; }
+.text-ods-cidades { color: #FD9D24; }
+.text-ods-consumo { color: #BF8B2E; }
+.text-ods-clima { color: #3F7E44; }
+.text-ods-oceanos { color: #0A97D9; }
+.text-ods-terrestre { color: #56C02B; }
+.text-ods-paz { color: #00689D; }
+.text-ods-parceria { color: #19486A; }
