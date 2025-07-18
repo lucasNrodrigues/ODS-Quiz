@@ -24,7 +24,7 @@ Neste quiz, o jogador responde perguntas sobre os 17 ODS, explorando temas como 
 
 Você pode instalar o jogo diretamente em um celular Android via APK:
 
-🔗 [Baixar o APK](https://mobile.seunome.grupo-0XX.distribuidos.ufersa.dev.br/OBSQuizLucas.2.0.apk)
+🔗 [Baixar o APK](https://mobile.lucas.grupo-05.distribuidos.ufersa.dev.br/OBSQuizLucas.2.0.apk)
 
 Para instalar como PWA:
 1. Acesse o jogo pelo navegador no celular
